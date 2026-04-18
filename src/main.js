@@ -5,7 +5,7 @@ export function setupCounter(element) {
 
   const adjustCounterValue = value => {
     if (value >= 100) return value - 100;
-    if (value <= -100) return value + 100;
+    if (value <= -100) return value + 200;
     return value;
   };
 
